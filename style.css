@@ -1,6 +1,28 @@
+/*$primary-color: #ff0000;
+$secondary-color:#000000;
+$third-color:#ffffff;*/
 * {
   margin: 0;
   padding: 0;
-  background-color: #000000; }
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto'; }
+
+.welcome-animation {
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+.welcome-animation li {
+  display: inline-block;
+  margin-right: 50px;
+  font-family: sans-serif;
+  font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
